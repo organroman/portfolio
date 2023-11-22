@@ -1,4 +1,4 @@
-import { aiSaas, jobit, tripguide } from "../assets";
+import { aiSaas, jobit, carHub } from "../assets";
 
 export const PROJECTS = [
   {
@@ -46,24 +46,25 @@ export const PROJECTS = [
     production_link: "https://ro-job-search.vercel.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Rent a car",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A simple carHub booking platform that allows users to review the list of cars and car details, to search, filter cars by make and model, year and fuel type.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "rapidApi",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "typescript",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: carHub,
+    source_code_link: "https://github.com/organroman/rent-a-car",
+    production_link: "https://ro-rent-a-car.vercel.app/",
   },
 ];

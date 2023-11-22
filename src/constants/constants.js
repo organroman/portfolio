@@ -10,7 +10,7 @@ import {
   mongodb,
   git,
   figma,
-  docker,
+  mui,
   threejs,
 } from "../assets";
 
@@ -79,8 +79,8 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "mui",
+    icon: mui,
   },
 ];
 

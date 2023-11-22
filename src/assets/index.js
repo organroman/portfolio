@@ -9,7 +9,7 @@ import close from "./close.svg";
 import openNew from "./open-in-new-window.png";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
+import mui from "./tech/mui-icon.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -27,7 +27,11 @@ import logoColorDan from "./company/logoColorDanEducation.svg";
 
 import aiSaas from "./aiSaas.png";
 import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import carHub from "./carHub.png";
+
+import linkedin from "./linkedin.svg";
+import gitlab from "./gitlab.svg";
+import rLogo from "./r-high-resolution-logo.svg";
 
 export {
   logo,
@@ -40,7 +44,7 @@ export {
   menu,
   close,
   css,
-  docker,
+  mui,
   figma,
   git,
   html,
@@ -54,7 +58,10 @@ export {
   threejs,
   aiSaas,
   jobit,
-  tripguide,
+  carHub,
   logoDan,
   logoColorDan,
+  linkedin,
+  gitlab,
+  rLogo,
 };
