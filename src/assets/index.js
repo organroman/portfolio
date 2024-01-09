@@ -24,6 +24,7 @@ import threejs from "./tech/threejs.svg";
 
 import logoDan from "./company/logoWhiteDatEducation.svg";
 import logoColorDan from "./company/logoColorDanEducation.svg";
+import contractLogo from './company/contract-icon.png'
 
 import aiSaas from "./aiSaas.png";
 import jobit from "./jobit.png";
@@ -61,6 +62,7 @@ export {
   carHub,
   logoDan,
   logoColorDan,
+ contractLogo,
   linkedin,
   gitlab,
   rLogo,
