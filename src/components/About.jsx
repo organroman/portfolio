@@ -39,8 +39,8 @@ const About = () => {
         I am skilled software developer with experience in JavaScript,
         TypeScript and expertise in framework React. I&apos;m a quick learner
         and collaborate closely with clients to create efficient, scalable and
-        user-friendly solutions that solves real-world problems. Lets work
-        together to bring your ideas to life!
+        user-friendly solutions that solves real-world problems. Currently I study Java with Spring boor to add backend part to my tech stack.
+        Lets work together to bring your ideas to life!
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {SERVICES.map((service, index) => (

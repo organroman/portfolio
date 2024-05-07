@@ -7,7 +7,7 @@ export const EXPERIENCES = [
     company_name: "NDA, contract",
     icon: contractLogo,
     iconBg: COLORS.cumberlandSausage,
-    date: "Jun 2023 - Present",
+    date: "Apr 2023 - Present",
     points: [
       "Developing and maintaining EdTech web applications (ERP, LMS, CRM combined in one ecosystem) using React.js and other related technologies.",
       "Collaborating with cross-functional team including designer, product manager, and BackEnd developer to create high-quality products.",
