@@ -1,4 +1,3 @@
-import { dateTimeValue } from "docx";
 import { github, gitlab, linkedin, rLogo } from "../assets";
 import { styles } from "../styles";
 
