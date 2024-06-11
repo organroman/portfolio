@@ -1,13 +1,16 @@
+import { dateTimeValue } from "docx";
 import { github, gitlab, linkedin, rLogo } from "../assets";
 import { styles } from "../styles";
 
 
 const Footer = () => {
+  const curDate = new Date();
+  
   return (
     <div className={ `${styles.paddingX} max-w-7xl mx-auto flex justify-between items-center py-3`}>
       <div className="flex items-center gap-2">
         <img src={rLogo} alt="logo" className="w-14 h-14 object-contain" />
-        <h6>2023</h6>
+        <h6>{curDate.getFullYear()}</h6>
       </div>
       <div className={`flex  items-center gap-2`}>
         <a
