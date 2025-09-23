@@ -3,6 +3,9 @@ import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants/constants";
 
 const Tech = () => {
+  technologies.forEach((t) => {
+    if (!t.icon) console.warn("Missing icon for:", t.name);
+  });
   return (
     <>
       <div className="flex flex-row flex-wrap justify-center gap-10">

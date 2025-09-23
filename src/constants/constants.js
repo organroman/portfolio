@@ -12,6 +12,8 @@ import {
   figma,
   mui,
   threejs,
+  // tanstack,
+  // nextjs,
 } from "../assets";
 
 export const navLinks = [
@@ -82,6 +84,8 @@ const technologies = [
     name: "mui",
     icon: mui,
   },
+  // { name: "tanstack", icon: tanstack },
+  // { name: "next.js", icon: nextjs },
 ];
 
 const testimonials = [
@@ -110,6 +114,5 @@ const testimonials = [
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
-
 
 export { technologies, testimonials };

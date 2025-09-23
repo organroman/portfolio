@@ -6,15 +6,15 @@ export const SERVICES = [
     icon: web,
   },
   {
-    title: "React JS Developer",
+    title: "FrontEnd Developer",
     icon: mobile,
   },
   {
-    title: "FrontEnd Developer",
+    title: "Fullstack Developer",
     icon: backend,
   },
   {
-    title: "Full Stack Developer",
+    title: "Mobile Developer",
     icon: creator,
   },
 ];

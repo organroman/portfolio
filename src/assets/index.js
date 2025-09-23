@@ -1,12 +1,15 @@
-import logo from "./logo.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
-import github from "./github.png";
-import menu from "./menu.svg";
-import close from "./close.svg";
-import openNew from "./open-in-new-window.png";
+import backend from "./overview/backend.png";
+import creator from "./overview/creator.png";
+import mobile from "./overview/mobile.png";
+import web from "./overview/web.png";
+
+import close from "./icons/close.svg";
+import openNew from "./icons/open-in-new-window.png";
+import menu from "./icons/menu.svg";
+import github from "./icons/github.png";
+import linkedin from "./icons/linkedin.svg";
+import gitlab from "./icons/gitlab.svg";
+import rLogo from "./icons/r-high-resolution-logo.svg";
 
 import css from "./tech/css.png";
 import mui from "./tech/mui-icon.png";
@@ -21,21 +24,22 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+// import tanstack from "./tech/tanstack.svg";
+// import nextjs from "./tech/nextjs.svg";
 
 import logoDan from "./company/logoWhiteDatEducation.svg";
 import logoColorDan from "./company/logoColorDanEducation.svg";
-import contractLogo from './company/contract-icon.png'
+import shortWhiteDan from "./company/short-dan-logo-white.svg";
+import jewelWaxLight from "./company/jewel-wax-light.svg";
+import contractLogo from "./company/contract-icon.png";
 
-import aiSaas from "./aiSaas.png";
-import jobit from "./jobit.png";
-import carHub from "./carHub.png";
-
-import linkedin from "./linkedin.svg";
-import gitlab from "./gitlab.svg";
-import rLogo from "./r-high-resolution-logo.svg";
+import aiSaas from "./projects/aiSaas.png";
+import jobit from "./projects/jobit.png";
+import carHub from "./projects/carHub.png";
+import ecomm from "./projects/ecomm.jpg";
+import jira from "./projects/jira.png";
 
 export {
-  logo,
   backend,
   creator,
   mobile,
@@ -60,10 +64,16 @@ export {
   aiSaas,
   jobit,
   carHub,
+  jira,
   logoDan,
   logoColorDan,
- contractLogo,
+  contractLogo,
+  shortWhiteDan,
+  jewelWaxLight,
   linkedin,
   gitlab,
   rLogo,
+  ecomm,
+  // tanstack,
+  // nextjs,
 };
