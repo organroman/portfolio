@@ -12,8 +12,10 @@ import {
   figma,
   mui,
   threejs,
-  // tanstack,
-  // nextjs,
+  melnyk,
+  gryntsiv,
+  tanstack,
+  nextjs,
 } from "../assets";
 
 export const navLinks = [
@@ -84,34 +86,29 @@ const technologies = [
     name: "mui",
     icon: mui,
   },
-  // { name: "tanstack", icon: tanstack },
-  // { name: "next.js", icon: nextjs },
+  { name: "tanstack", icon: tanstack },
+  { name: "next.js", icon: nextjs },
 ];
 
 const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    testimonial: `I worked with Roman on a CRM system project.
+      As a client, I can say that during our collaboration, he demonstrated a high level of professionalism and deep domain knowledge, which enabled us to achieve our goals.
+      I am completely satisfied with the work and the completed task.
+      I can recommend Roman as a stable and reliable partner in solving problems.`,
+    name: "Dmitriy Melnik",
+    designation: "Founder and CEO",
+    company: "Jewel Wax",
+    image: melnyk,
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    testimonial: `I had the pleasure of working with Roman on a CRM system project. He proved himself to be a highly skilled and reliable developer who consistently delivers tasks on time and with great attention to detail.
+Roman is easy to collaborate with – he is professional, proactive, and always open to discussing solutions. His contributions had a significant impact on the successful delivery of our project.
+I highly recommend Roman as a dependable developer and a valuable team player.`,
+    name: "Nataliya Gryntsiv",
+    designation: "UX Designer, Product Designer",
+    company: "GRYNA",
+    image: gryntsiv,
   },
 ];
 

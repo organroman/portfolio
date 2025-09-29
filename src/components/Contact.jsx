@@ -30,8 +30,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_3eij6v4",
-        "template_ceam3ra",
+        import.meta.env.EMAIL_SERVICE_PUBLIC,
+        import.meta.env.EMAIL_TEMPLATE_ID,
         {
           from_name: form.name,
           to_name: "Roman",
@@ -39,7 +39,7 @@ const Contact = () => {
           to_email: "organroman@gmail.com",
           message: form.message,
         },
-        "TCI-Yhsa0Gdz-9Rvn"
+        import.meta.env.EMAIL_SERVICE
       )
       .then(
         () => {
@@ -81,7 +81,7 @@ const Contact = () => {
               value={form.name}
               onChange={handleChange}
               placeholder="What's your name?"
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
           <label className="flex flex-col">
@@ -92,7 +92,7 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder="What's your email?"
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
           <label className="flex flex-col">
@@ -103,12 +103,12 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               placeholder="What do you want to say?"
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
           <button
             type="submit"
-            className="bg-tertiary py-3 px-8 outlined-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl
+            className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl
             "
           >
             {loading ? "Sending..." : "Send"}

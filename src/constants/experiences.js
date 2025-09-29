@@ -12,13 +12,13 @@ export const EXPERIENCES = [
     points: [
       "Custom CRM-ERP for Jewelry Manufacturing—end-to-end build (architecture → deploy).",
       "Designed, implemented, and launched a production CRM-ERP that streamlines orders, communication, and fulfillment across the shop floor.",
-      "Architecture & Backend: Node.js + TypeScript (Express, Knex) with layered controllers/services/models. PostgreSQL schema for persons, requests, orders, deliveries, chat, finances.",
-      "Frontend: Next.js + React (TS), React Hook Form + Zod, shadcn/ui DataTable; real-time chat and status updates via socket.io.",
-      "Orders & Messaging: Full order lifecycle (modeling → milling → 3D printing → delivery) with activity/audit timeline. Telegram integration over WebSockets; channel-adapter layer to add Messenger/Instagram/WhatsApp without touching core domain logic. Internal chat for communication between users(admin - order performers) inside one order.",
-      "Business Features: RBAC, internal chat, activity logs, and finance/operations dashboards.",
-      "Integrations: Cloudinary for media, DigitalOcean Spaces for files, Nova Poshta API for delivery declarations.",
-      "DevOps: Automated deploy scripts, PM2 + Nginx, PostgreSQL migrations; DigitalOcean hosting with separate test & prod subdomains.",
-      "Security & Compliance: JWT refresh flow, secure password reset, rate limiting, audit logs, GDPR-ready roles/permissions model.",
+      // "Architecture & Backend: Node.js + TypeScript (Express, Knex) with layered controllers/services/models. PostgreSQL schema for persons, requests, orders, deliveries, chat, finances.",
+      // "Frontend: Next.js + React (TS), React Hook Form + Zod, shadcn/ui DataTable; real-time chat and status updates via socket.io.",
+      // "Orders & Messaging: Full order lifecycle (modeling → milling → 3D printing → delivery) with activity/audit timeline. Telegram integration over WebSockets; channel-adapter layer to add Messenger/Instagram/WhatsApp without touching core domain logic.",
+      // "Business Features: RBAC, internal chat, activity logs, and finance/operations dashboards.",
+      // "Integrations: Cloudinary for media, DigitalOcean Spaces for files, Nova Poshta API for delivery declarations.",
+      // "DevOps: Automated deploy scripts, PM2 + Nginx, PostgreSQL migrations; DigitalOcean hosting with separate test & prod subdomains.",
+      // "Security & Compliance: JWT refresh flow, secure password reset, rate limiting, audit logs, GDPR-ready roles/permissions model.",
       "Impact: Reduced manual ops via automated order tracking & delivery workflows, unified client comms around orders, and created a scalable foundation for multi-channel CRM/ERP extensions.]",
     ],
   },
@@ -30,28 +30,20 @@ export const EXPERIENCES = [
     iconBg: COLORS.moodIndigo,
     date: "Apr 2023 - Present",
     points: [
-      "As the sole frontend developer in a small team, I am responsible for developing the frontend of an integrated ERP, CRM, and LMS system for educational businesses. This system manages processes from lead generation to student graduation. I work closely with a backend developer, designer, and product owner to deliver features efficiently, with code reviews by our full stack system architect.",
-      `Tech Stack
-React.js | Material-UI (MUI) | React Router | Redux Toolkit | Axios | Sentry React`,
-      `Key Features
-  * Authentication & Authorization
-    - Role-Based Auth: Users can have multiple roles with access to specific pages, data, and CRUD operations.
-    - Permissions Table: Manages entity access based on roles.
-Internationalization. Multi-Language Localization: Using React i18n.
-Data Visualization. Charts: Dashboards using Recharts.
-UI Enhancements
-Drag and Drop: Implemented with dnd-kit.
-Calendars: MUI date-time pickers and BigCalendar for event management.
-Text Editing. Rich Text Editor: Using React-Quill for article formatting.
-Data Handling
-Search: Server-side and client-side search with filtering and sorting.
-File Management: File upload/download.
-Data Export: Export selected data.
-Contract Generation: Export contracts as Word documents using docx library.
-Complex Forms:   Developed various forms with fields ranging from simple strings to arrays of dates or files. Utilized Formik for form management and Yup for validation.
-`,
-      `Summary
-I have independently developed a wide range of frontend features for an integrated ERP, CRM, and LMS system, ensuring close collaboration with team members and maintaining high code quality through regular reviews.`,
+      "Integrated ERP-CRM-LMS for Education — end-to-end frontend build (wireframes → prod).",
+      "Designed, implemented, and shipped the production frontend that powers the whole learner journey (lead → enrollment → study → graduation) and internal ops. Solo FE in a lean squad; shipped fast with clean PRs and architect reviews.",
+      // Frontend & Architecture: React.js + Material UI, React Router, Redux Toolkit (state/data), Axios for API, Sentry (error tracking). Component-driven, reusable UI kits, sensible foldering, and predictable state flows.
+      // Auth & Access: Multi-role RBAC with page/data/CRUD gates. Centralized permissions matrix to map entities → actions per role.
+      // Localization: Full i18n with language switcher (React i18next). Copy keys, fallbacks, and RTL-safe layouts ready.
+      // Data Viz & Dashboards: Recharts-based widgets for KPIs and progress; responsive cards, empty states, and loading skeletons.
+      // Scheduling & Events: MUI pickers + BigCalendar for classes, intakes, and sessions; timezone-safe and keyboard-accessible.
+      // UX Enhancers: dnd-kit drag/drop (lists, ordering), React-Quill rich text for articles and lessons, sticky toolbars, autosave hooks.
+      // Search & Tables: Server/client-side search, filtering, sorting, pagination. Bulk actions and row-level ops with optimistic UI.
+      // Files & Docs: Upload/download flows with validation and progress. Contract generation via docx (Word export) with templating.
+      // Forms & Validation: Formik + Yup across simple to nested arrays (dates/files). Reusable field components and error surfacing.
+      // Reliability: Centralized API layer (Axios interceptors), toastable errors, guarded routes, and Sentry breadcrumbs for triage.
+      // Ways of Working: Tight loop with BE, designer, PO; design handoff → dev → review → release. Reviews by full-stack architect for quality and maintainability.
+      "Impact: Cut manual admin via role-aware flows, sped up content & scheduling, localized the app for wider reach, and automated contract/exports — turning a scattered toolset into one clean, scalable frontend foundation.]",
     ],
   },
   {

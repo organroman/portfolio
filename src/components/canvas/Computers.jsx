@@ -1,4 +1,4 @@
-import { Suspense, useEffect, useState } from "react";
+import { memo, Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
@@ -66,5 +66,5 @@ const ComputersCanvas = () => {
     </Canvas>
   );
 };
-
-export default ComputersCanvas;
+useGLTF.preload("/desktop_pc/scene.gltf");
+export default memo(ComputersCanvas);

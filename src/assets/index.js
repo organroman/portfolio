@@ -24,8 +24,8 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-// import tanstack from "./tech/tanstack.svg";
-// import nextjs from "./tech/nextjs.svg";
+import tanstack from "./tech/tanstack.svg";
+import nextjs from "./tech/nextjs.svg";
 
 import logoDan from "./company/logoWhiteDatEducation.svg";
 import logoColorDan from "./company/logoColorDanEducation.svg";
@@ -38,6 +38,9 @@ import jobit from "./projects/jobit.png";
 import carHub from "./projects/carHub.png";
 import ecomm from "./projects/ecomm.jpg";
 import jira from "./projects/jira.png";
+
+import melnyk from "./testimonials/Melnyk.jpeg";
+import gryntsiv from "./testimonials/Gtyntsiv.jpeg";
 
 export {
   backend,
@@ -74,6 +77,8 @@ export {
   gitlab,
   rLogo,
   ecomm,
-  // tanstack,
-  // nextjs,
+  melnyk,
+  gryntsiv,
+  tanstack,
+  nextjs,
 };

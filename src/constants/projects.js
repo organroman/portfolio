@@ -2,9 +2,32 @@ import { aiSaas, jobit, carHub, ecomm, jira } from "../assets";
 
 export const PROJECTS = [
   {
+    name: "E-Commerce Shop",
+    description:
+      // "This project is a full-featured e-commerce solution consisting of a desktop admin panel for managing shop operations and a mobile app for customer interactions. The admin panel allows employees to manage products, categories, orders, and users. The customer-facing mobile app provides a seamless shopping experience where users can search products, filter by categories, make purchases, and track their orders in real-time. The project is powered by a backend built with Express.js, ensuring fast and secure API communication between the front-end and the server. The system handles user authentication, order management, and inventory updates, providing a complete end-to-end solution for online shopping businesses.",
+      "Full-featured e-commerce solution consisting of a desktop admin panel for managing shop operations and a mobile app for customer interactions. ",
+    tags: [
+      {
+        name: "react native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "next.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "express.js",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: ecomm,
+    source_code_link: "https://github.com/organroman/fullstack-ecom",
+    production_link: "https://fullstack-ecom-dashboard.vercel.app/",
+  },
+  {
     name: "Taskify",
     description:
-      "Application for managing tasks via creating projects, workspaces for specific project, managing members, assignees. The tasks has 3 views - table, kanban and calendar. In kanban drag and drop implemented for moving tasks to change status",
+      "Application for managing tasks via creating projects, workspaces, managing members, assignees. The tasks has 3 views - table, kanban with drag and drop and calendar.",
     tags: [
       {
         name: "next.js",
@@ -88,31 +111,5 @@ export const PROJECTS = [
     image: aiSaas,
     source_code_link: "https://github.com/organroman/ai-saas",
     production_link: "https://ro-ai-saas.vercel.app",
-  },
-  {
-    name: "E-Commerce Shop",
-    description:
-      "This project is a full-featured e-commerce solution consisting of a desktop admin panel for managing shop operations and a mobile app for customer interactions. The admin panel allows employees to manage products, categories, orders, and users. The customer-facing mobile app provides a seamless shopping experience where users can search products, filter by categories, make purchases, and track their orders in real-time. The project is powered by a backend built with Express.js, ensuring fast and secure API communication between the front-end and the server. The system handles user authentication, order management, and inventory updates, providing a complete end-to-end solution for online shopping businesses.",
-    tags: [
-      {
-        name: "react native",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "next.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "express.js",
-        color: "orange-text-gradient",
-      },
-    ],
-    image: ecomm,
-    source_code_link: "https://github.com/organroman/fullstack-ecom",
-    production_link: "https://fullstack-ecom-dashboard.vercel.app/",
   },
 ];

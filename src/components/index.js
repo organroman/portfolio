@@ -10,7 +10,7 @@ import About from "./about/About";
 import Tech from "./Tech";
 import Experience from "./experience/Experience";
 import Works from "./works/Works";
-import Feedbacks from "./Feedbacks";
+import Feedbacks from "./feedback/Feedbacks";
 import Contact from "./Contact";
 
 export {
