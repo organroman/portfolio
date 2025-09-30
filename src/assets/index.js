@@ -26,6 +26,10 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import tanstack from "./tech/tanstack.svg";
 import nextjs from "./tech/nextjs.svg";
+import shadcn from "./tech/shadcn.png";
+import express from "./tech/express-js.png";
+import zod from "./tech/zod-logo.png";
+import zustand from "./tech/zustand.png";
 
 import logoDan from "./company/logoWhiteDatEducation.svg";
 import logoColorDan from "./company/logoColorDanEducation.svg";
@@ -81,4 +85,8 @@ export {
   gryntsiv,
   tanstack,
   nextjs,
+  shadcn,
+  express,
+  zod,
+  zustand,
 };
