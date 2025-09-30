@@ -30,8 +30,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.EMAIL_SERVICE_PUBLIC,
-        import.meta.env.EMAIL_TEMPLATE_ID,
+        "service_3eij6v4",
+        "template_ceam3ra",
         {
           from_name: form.name,
           to_name: "Roman",
@@ -39,7 +39,8 @@ const Contact = () => {
           to_email: "organroman@gmail.com",
           message: form.message,
         },
-        import.meta.env.EMAIL_SERVICE
+
+        "TCI-Yhsa0Gdz-9Rvn"
       )
       .then(
         () => {
