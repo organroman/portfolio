@@ -69,7 +69,7 @@ const testimonials = [
       Roman is easy to collaborate with – he is professional, proactive, and always open to discussing solutions. His contributions had a significant impact on the successful delivery of our project.
       I highly recommend Roman as a dependable developer and a valuable team player.`,
     name: "Nataliya Gryntsiv",
-    designation: "UX Designer, Product Designer",
+    designation: "UX & Product Designer",
     company: "GRYNA",
     image: gryntsiv,
   },
