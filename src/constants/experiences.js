@@ -24,7 +24,7 @@ export const EXPERIENCES = [
   },
   {
     title: "React.js Developer",
-    company_name: "DAN.IT Systems",
+    company_name: "DAN Systems",
     web: "https://dan-it.com/",
     icon: shortWhiteDan,
     iconBg: COLORS.moodIndigo,
