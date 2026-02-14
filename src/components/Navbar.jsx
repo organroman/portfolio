@@ -23,7 +23,7 @@ const Navbar = () => {
         >
           <img src={rLogo} alt="logo" className="w-14 h-14 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Roman &nbsp;<span className="sm:block hidden"> | React JS</span>
+            Roman &nbsp;<span className="sm:block hidden"> | FS</span>
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
