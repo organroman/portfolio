@@ -39,7 +39,7 @@ const technologies = [
   { name: "Node JS", icon: nodejs },
   { name: "express", icon: express },
   { name: "Redux Toolkit", icon: redux },
-  { name: zustand, icon: zustand },
+  { name: "Zustand", icon: zustand },
   { name: "mui", icon: mui },
   { name: "shadcn", icon: shadcn },
   { name: "Tailwind CSS", icon: tailwind },
